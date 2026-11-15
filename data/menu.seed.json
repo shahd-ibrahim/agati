@@ -44,7 +44,7 @@
             "dairy",
             "gluten"
           ],
-          "image": "",
+          "image": "/dishes/creamy-chicken-soup.jpg",
           "isAvailable": true
         },
         {
@@ -62,7 +62,7 @@
           "allergens": [
             "dairy"
           ],
-          "image": "",
+          "image": "/dishes/seafood-soup.jpg",
           "isAvailable": true
         },
         {
@@ -78,7 +78,7 @@
           "price": 26,
           "calories": null,
           "allergens": [],
-          "image": "",
+          "image": "/dishes/pacha-soup.jpg",
           "isAvailable": true
         }
       ]
@@ -108,7 +108,7 @@
             "nuts",
             "gluten"
           ],
-          "image": "",
+          "image": "/dishes/muhammara.jpg",
           "isAvailable": true
         },
         {
@@ -126,7 +126,7 @@
           "allergens": [
             "dairy"
           ],
-          "image": "",
+          "image": "/dishes/eggplant-moutabal.jpg",
           "isAvailable": true
         },
         {
@@ -144,7 +144,7 @@
           "allergens": [
             "seed"
           ],
-          "image": "/dishes/u-1535140728325-a4d3707eee61.jpg",
+          "image": "/dishes/hummus.jpg",
           "isAvailable": true
         },
         {
@@ -163,7 +163,7 @@
             "seed",
             "dairy"
           ],
-          "image": "",
+          "image": "/dishes/shrimp-hummus.jpg",
           "isAvailable": true
         },
         {
@@ -182,7 +182,7 @@
             "seed",
             "nuts"
           ],
-          "image": "",
+          "image": "/dishes/hummus-meat.jpg",
           "isAvailable": true
         },
         {
@@ -200,7 +200,7 @@
           "allergens": [
             "nuts"
           ],
-          "image": "",
+          "image": "/dishes/vine-leaves.jpg",
           "isAvailable": true
         },
         {
@@ -218,7 +218,7 @@
           "allergens": [
             "dairy"
           ],
-          "image": "",
+          "image": "/dishes/yogurt-salad.jpg",
           "isAvailable": true
         },
         {
@@ -236,7 +236,7 @@
           "allergens": [
             "seed"
           ],
-          "image": "",
+          "image": "/dishes/beetroot-hummus.jpg",
           "isAvailable": true
         }
       ]
@@ -263,7 +263,7 @@
           "price": 29,
           "calories": null,
           "allergens": [],
-          "image": "",
+          "image": "/dishes/spicy-potato.jpg",
           "isAvailable": true
         },
         {
@@ -279,7 +279,7 @@
           "price": 33,
           "calories": 577,
           "allergens": [],
-          "image": "",
+          "image": "/dishes/chicken-liver.jpg",
           "isAvailable": true
         },
         {
@@ -295,7 +295,7 @@
           "price": 32,
           "calories": 380,
           "allergens": [],
-          "image": "",
+          "image": "/dishes/has-ab-paz.jpg",
           "isAvailable": true
         },
         {
@@ -313,7 +313,7 @@
           "allergens": [
             "nuts"
           ],
-          "image": "",
+          "image": "/dishes/rice-kubbah.jpg",
           "isAvailable": true
         },
         {
@@ -332,7 +332,7 @@
             "nuts",
             "gluten"
           ],
-          "image": "",
+          "image": "/dishes/kubbah-meat.jpg",
           "isAvailable": true
         },
         {
@@ -351,7 +351,7 @@
             "dairy",
             "gluten"
           ],
-          "image": "",
+          "image": "/dishes/cheese-herb-borek.jpg",
           "isAvailable": true
         },
         {
@@ -369,7 +369,7 @@
           "allergens": [
             "gluten"
           ],
-          "image": "",
+          "image": "/dishes/borek-meat.jpg",
           "isAvailable": true
         },
         {
@@ -435,7 +435,7 @@
           "allergens": [
             "gluten"
           ],
-          "image": "",
+          "image": "/dishes/eggplant-salad.jpg",
           "isAvailable": true
         },
         {
@@ -471,7 +471,7 @@
           "allergens": [
             "gluten"
           ],
-          "image": "",
+          "image": "/dishes/tabbouleh.jpg",
           "isAvailable": true
         },
         {
@@ -508,7 +508,7 @@
           "allergens": [
             "dairy"
           ],
-          "image": "",
+          "image": "/dishes/al-wadi-salad.jpg",
           "isAvailable": true
         },
         {
@@ -526,7 +526,7 @@
           "allergens": [
             "dairy"
           ],
-          "image": "",
+          "image": "/dishes/corn-salad.jpg",
           "isAvailable": true
         },
         {
@@ -544,7 +544,7 @@
           "allergens": [
             "dairy"
           ],
-          "image": "",
+          "image": "/dishes/chicken-broccoli-salad.jpg",
           "isAvailable": true
         },
         {
@@ -560,7 +560,7 @@
           "price": 35,
           "calories": 220,
           "allergens": [],
-          "image": "",
+          "image": "/dishes/baba-ghanouj.jpg",
           "isAvailable": true
         }
       ]
@@ -644,7 +644,7 @@
             "gluten",
             "dairy"
           ],
-          "image": "",
+          "image": "/dishes/arayes-platter.jpg",
           "isAvailable": true
         },
         {
@@ -709,7 +709,7 @@
           "allergens": [
             "nuts"
           ],
-          "image": "/dishes/fish.jpg",
+          "image": "/dishes/masgouf.jpg",
           "isAvailable": true
         },
         {
@@ -783,7 +783,7 @@
             "nuts",
             "dairy"
           ],
-          "image": "",
+          "image": "/dishes/maqluba.jpg",
           "isAvailable": true
         },
         {
@@ -801,7 +801,7 @@
           "allergens": [
             "gluten"
           ],
-          "image": "",
+          "image": "/dishes/eggplant-casserole.jpg",
           "isAvailable": true
         },
         {
@@ -819,7 +819,7 @@
           "allergens": [
             "nuts"
           ],
-          "image": "",
+          "image": "/dishes/white-bean-stew.jpg",
           "isAvailable": true
         },
         {
@@ -835,7 +835,7 @@
           "price": 68,
           "calories": 831,
           "allergens": [],
-          "image": "",
+          "image": "/dishes/baked-meat-casserole.jpg",
           "isAvailable": true
         }
       ]
@@ -884,7 +884,7 @@
             "nuts",
             "dairy"
           ],
-          "image": "",
+          "image": "/dishes/whole-stuffed-lamb.jpg",
           "isAvailable": true
         }
       ]
@@ -994,7 +994,7 @@
             "dairy",
             "nuts"
           ],
-          "image": "",
+          "image": "/dishes/kunafa-pan.jpg",
           "isAvailable": true
         },
         {
@@ -1014,7 +1014,7 @@
             "dairy",
             "nuts"
           ],
-          "image": "",
+          "image": "/dishes/umm-ali.jpg",
           "isAvailable": true
         },
         {
@@ -1034,7 +1034,7 @@
             "dairy",
             "nuts"
           ],
-          "image": "",
+          "image": "/dishes/saraya-bread.jpg",
           "isAvailable": true
         },
         {
@@ -1053,7 +1053,7 @@
             "dairy",
             "nuts"
           ],
-          "image": "",
+          "image": "/dishes/ghazalia.jpg",
           "isAvailable": true
         },
         {
@@ -1072,7 +1072,7 @@
             "nuts",
             "seed"
           ],
-          "image": "",
+          "image": "/dishes/madkoka-aghatti.jpg",
           "isAvailable": true
         },
         {
@@ -1092,7 +1092,7 @@
             "dairy",
             "nuts"
           ],
-          "image": "",
+          "image": "/dishes/osmaliah.jpg",
           "isAvailable": true
         }
       ]
@@ -1119,7 +1119,7 @@
           "price": 16,
           "calories": 165,
           "allergens": [],
-          "image": "",
+          "image": "/dishes/carrot-juice.jpg",
           "isAvailable": true
         },
         {
@@ -1167,7 +1167,7 @@
           "price": 25,
           "calories": null,
           "allergens": [],
-          "image": "",
+          "image": "/dishes/pomegranate-juice.jpg",
           "isAvailable": true
         },
         {
@@ -1199,7 +1199,7 @@
           "price": 30,
           "calories": 412,
           "allergens": [],
-          "image": "",
+          "image": "/dishes/blue-lagoon.jpg",
           "isAvailable": true
         },
         {
@@ -1263,7 +1263,7 @@
           "price": 30,
           "calories": 145,
           "allergens": [],
-          "image": "",
+          "image": "/dishes/pineapple-mint.jpg",
           "isAvailable": true
         },
         {
@@ -1279,7 +1279,7 @@
           "price": 35,
           "calories": 190,
           "allergens": [],
-          "image": "",
+          "image": "/dishes/passion-fruit.jpg",
           "isAvailable": true
         },
         {
@@ -1295,7 +1295,7 @@
           "price": 12,
           "calories": null,
           "allergens": [],
-          "image": "",
+          "image": "/dishes/soft-drinks.jpg",
           "isAvailable": true
         },
         {
@@ -1311,7 +1311,7 @@
           "price": 15,
           "calories": null,
           "allergens": [],
-          "image": "",
+          "image": "/dishes/sparkling-water.jpg",
           "isAvailable": true
         },
         {
@@ -1327,7 +1327,7 @@
           "price": 22,
           "calories": null,
           "allergens": [],
-          "image": "",
+          "image": "/dishes/pellegrino-lemon.jpg",
           "isAvailable": true
         },
         {
@@ -1343,7 +1343,7 @@
           "price": 22,
           "calories": null,
           "allergens": [],
-          "image": "",
+          "image": "/dishes/pellegrino-pomegranate.jpg",
           "isAvailable": true
         },
         {
@@ -1359,7 +1359,7 @@
           "price": 8,
           "calories": null,
           "allergens": [],
-          "image": "",
+          "image": "/dishes/mineral-water-330.jpg",
           "isAvailable": true
         },
         {
@@ -1375,7 +1375,7 @@
           "price": 14,
           "calories": null,
           "allergens": [],
-          "image": "",
+          "image": "/dishes/mineral-water-750.jpg",
           "isAvailable": true
         },
         {
@@ -1391,7 +1391,7 @@
           "price": 9,
           "calories": 20,
           "allergens": [],
-          "image": "",
+          "image": "/dishes/single-espresso.jpg",
           "isAvailable": true
         },
         {
@@ -1407,7 +1407,7 @@
           "price": 14,
           "calories": 40,
           "allergens": [],
-          "image": "",
+          "image": "/dishes/double-espresso.jpg",
           "isAvailable": true
         },
         {
@@ -1475,7 +1475,7 @@
           "price": 18,
           "calories": 20,
           "allergens": [],
-          "image": "",
+          "image": "/dishes/turkish-coffee.jpg",
           "isAvailable": true
         },
         {
@@ -1507,7 +1507,7 @@
           "price": 13,
           "calories": 2,
           "allergens": [],
-          "image": "",
+          "image": "/dishes/green-tea-mint.jpg",
           "isAvailable": true
         }
       ]

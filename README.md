@@ -47,9 +47,10 @@ Colours were measured from the logo pixels:
 
 ## Dish photos
 
-- 30 of the 80 items have a photo that was checked by eye to match the dish. 28 are Unsplash photos stored locally as `public/dishes/u-*.jpg` (1200px), so nothing loads from Unsplash at runtime. `fish.jpg` (Masgouf) comes from the EVO Group portfolio and is **watermarked**.
-- The other 50 items (dolma-style dishes, kubbah, desserts, most drinks…) show a designed orbiting-monogram placeholder until a real photo is added in `/admin` (dish → image URL, for example `/dishes/kunafa.jpg` after copying the file into `public/dishes/`).
-- `public/dishes/raw/` (about 240 MB of scraped originals) is git-ignored. Delete it before deploying.
+- **All 80 items have a local photo**, named after the dish (`public/dishes/<dish-id>.jpg`) or kept from the earlier set (`public/dishes/u-*.jpg`). Each is at most 800px and 120 KB, about 5.7 MB in total, and nothing loads from an external image host at runtime.
+- **Sources and licences:** Pexels (Pexels License) and Unsplash (Unsplash License). Both allow free commercial use with no attribution and no watermarks. Every photo's source is recorded in `data/photo-sources.json`.
+- **Stand-ins:** entries in that file with a `note` show a *similar* dish rather than the exact one, because no free stock photo of these Iraqi dishes exists (for example Has Ab-Paz, Madkoka, Ghazalia, Osmaliah, Umm Ali, rice kubbah, arayes, maqluba). Replace them with the restaurant's own photos when available: copy the file into `public/dishes/` and set the dish's image in `/admin`.
+- `public/dishes/raw/` (scraped portfolio originals, about 240 MB) is git-ignored and not used.
 
 ## Calories, allergens and set menu
 
