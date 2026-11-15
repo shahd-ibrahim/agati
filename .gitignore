@@ -1,0 +1,8 @@
+node_modules
+.next
+out
+*.tsbuildinfo
+next-env.d.ts
+.env*.local
+# 240 MB of scraped source photos, keep out of git and out of production builds
+public/dishes/raw

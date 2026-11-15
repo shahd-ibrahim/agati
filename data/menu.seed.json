@@ -1,0 +1,1689 @@
+{
+  "categories": [
+    {
+      "id": "soups",
+      "name": {
+        "ar": "الشوربات",
+        "en": "Soups"
+      },
+      "order": 0,
+      "coverImage": "/dishes/u-1476718406336-bb5a9690ee2a.jpg",
+      "items": [
+        {
+          "id": "lentil-soup",
+          "name": {
+            "ar": "شوربة عدس",
+            "en": "Traditional Lentil Soup"
+          },
+          "description": {
+            "ar": "شوربة عدس بلاد الرافدين التقليدية مع الشعرية",
+            "en": "Traditional Mesopotamian lentil soup with vermicelli"
+          },
+          "price": 23,
+          "calories": 348,
+          "allergens": [
+            "dairy",
+            "gluten"
+          ],
+          "image": "/dishes/u-1476718406336-bb5a9690ee2a.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "creamy-chicken-soup",
+          "name": {
+            "ar": "شوربة كريمة",
+            "en": "Creamy Chicken Soup"
+          },
+          "description": {
+            "ar": "شوربة كريمة الدجاج",
+            "en": "Cream of chicken soup"
+          },
+          "price": 24,
+          "calories": 485,
+          "allergens": [
+            "dairy",
+            "gluten"
+          ],
+          "image": "",
+          "isAvailable": true
+        },
+        {
+          "id": "seafood-soup",
+          "name": {
+            "ar": "شوربة البحريات",
+            "en": "Seafood Soup"
+          },
+          "description": {
+            "ar": "شوربة ثمار البحر مع الكريمة والروبيان والكاليماري",
+            "en": "Seafood soup with cream, prawns & calamari"
+          },
+          "price": 39,
+          "calories": 342,
+          "allergens": [
+            "dairy"
+          ],
+          "image": "",
+          "isAvailable": true
+        },
+        {
+          "id": "pacha-soup",
+          "name": {
+            "ar": "شوربة باجي",
+            "en": "Pacha Soup"
+          },
+          "description": {
+            "ar": "شوربة معدة من لحم البقر التقليدية",
+            "en": "Traditional beef pacha soup"
+          },
+          "price": 26,
+          "calories": null,
+          "allergens": [],
+          "image": "",
+          "isAvailable": true
+        }
+      ]
+    },
+    {
+      "id": "cold-appetizers",
+      "name": {
+        "ar": "المقبلات الباردة",
+        "en": "Cold Appetizers"
+      },
+      "order": 1,
+      "coverImage": "/dishes/u-1535140728325-a4d3707eee61.jpg",
+      "items": [
+        {
+          "id": "muhammara",
+          "name": {
+            "ar": "محمرة",
+            "en": "Muhammara"
+          },
+          "description": {
+            "ar": "معجون فلفل أحمر مشوي مع الجوز ودبس الرمان",
+            "en": "Roasted red pepper paste with walnuts & pomegranate molasses"
+          },
+          "price": 35,
+          "calories": 785,
+          "allergens": [
+            "nuts",
+            "gluten"
+          ],
+          "image": "",
+          "isAvailable": true
+        },
+        {
+          "id": "eggplant-moutabal",
+          "name": {
+            "ar": "متبل باذنجان",
+            "en": "Eggplant Moutabal"
+          },
+          "description": {
+            "ar": "باذنجان مشوي ومهروس مع الطحينة وزيت الزيتون ودبس الرمان",
+            "en": "Roasted mashed eggplant with tahini, olive oil & pomegranate molasses"
+          },
+          "price": 35,
+          "calories": 447,
+          "allergens": [
+            "dairy"
+          ],
+          "image": "",
+          "isAvailable": true
+        },
+        {
+          "id": "hummus",
+          "name": {
+            "ar": "حمص",
+            "en": "Traditional Hummus"
+          },
+          "description": {
+            "ar": "حمص بالطحينة على طريقة بلاد الرافدين وزيت الزيتون",
+            "en": "Mesopotamian-style hummus with tahini & olive oil"
+          },
+          "price": 33,
+          "calories": 620,
+          "allergens": [
+            "seed"
+          ],
+          "image": "/dishes/u-1535140728325-a4d3707eee61.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "shrimp-hummus",
+          "name": {
+            "ar": "حمص بالروبيان",
+            "en": "Shrimp Hummus"
+          },
+          "description": {
+            "ar": "حمص بالطحينة مع الروبيان المتبل والزبدة",
+            "en": "Hummus with tahini, spiced shrimp & butter"
+          },
+          "price": 55,
+          "calories": 851,
+          "allergens": [
+            "seed",
+            "dairy"
+          ],
+          "image": "",
+          "isAvailable": true
+        },
+        {
+          "id": "hummus-meat",
+          "name": {
+            "ar": "حمص باللحمة",
+            "en": "Hummus with Meat"
+          },
+          "description": {
+            "ar": "حمص بالطحينة مع لحم الواغيو واللوز المحمص",
+            "en": "Hummus with tahini, wagyu beef & toasted almonds"
+          },
+          "price": 52,
+          "calories": 864,
+          "allergens": [
+            "seed",
+            "nuts"
+          ],
+          "image": "",
+          "isAvailable": true
+        },
+        {
+          "id": "vine-leaves",
+          "name": {
+            "ar": "ورق عنب",
+            "en": "Vine Leaves"
+          },
+          "description": {
+            "ar": "ورق عنب محشي بالأرز والخضار على طريقة بلاد الرافدين",
+            "en": "Vine leaves stuffed with rice & vegetables, Mesopotamian style"
+          },
+          "price": 35,
+          "calories": 645,
+          "allergens": [
+            "nuts"
+          ],
+          "image": "",
+          "isAvailable": true
+        },
+        {
+          "id": "yogurt-salad",
+          "name": {
+            "ar": "سلطة الزبادي",
+            "en": "Yogurt Salad"
+          },
+          "description": {
+            "ar": "لبن مع خيار ونعناع مجفف",
+            "en": "Yoghurt with cucumber & dried mint"
+          },
+          "price": 25,
+          "calories": 145,
+          "allergens": [
+            "dairy"
+          ],
+          "image": "",
+          "isAvailable": true
+        },
+        {
+          "id": "beetroot-hummus",
+          "name": {
+            "ar": "حمص شمندر",
+            "en": "Beetroot Hummus"
+          },
+          "description": {
+            "ar": "حمص بالطحينة ممزوج بالشمندر الأحمر",
+            "en": "Hummus with tahini blended with red beetroot"
+          },
+          "price": 35,
+          "calories": 450,
+          "allergens": [
+            "seed"
+          ],
+          "image": "",
+          "isAvailable": true
+        }
+      ]
+    },
+    {
+      "id": "hot-appetizers",
+      "name": {
+        "ar": "المقبلات الساخنة",
+        "en": "Hot Appetizers"
+      },
+      "order": 2,
+      "coverImage": "/dishes/u-1601050690597-df0568f70950.jpg",
+      "items": [
+        {
+          "id": "spicy-potato",
+          "name": {
+            "ar": "بطاطا حارة",
+            "en": "Spicy Potato"
+          },
+          "description": {
+            "ar": "مكعبات البطاطس المقلية متبلة بالثوم والكزبرة والصلصة الحارة",
+            "en": "Fried potato cubes with garlic, coriander & hot sauce"
+          },
+          "price": 29,
+          "calories": null,
+          "allergens": [],
+          "image": "",
+          "isAvailable": true
+        },
+        {
+          "id": "chicken-liver",
+          "name": {
+            "ar": "كبدة الدجاج",
+            "en": "Chicken Liver"
+          },
+          "description": {
+            "ar": "كبدة دجاج مقلية تقدم مع دبس الرمان",
+            "en": "Fried chicken liver with pomegranate molasses"
+          },
+          "price": 33,
+          "calories": 577,
+          "allergens": [],
+          "image": "",
+          "isAvailable": true
+        },
+        {
+          "id": "has-ab-paz",
+          "name": {
+            "ar": "باجي مسلوق",
+            "en": "Has Ab-Paz"
+          },
+          "description": {
+            "ar": "مختار من لحم العجل الأبيض تقدم مع الليمون والكريمة",
+            "en": "Selected white veal served with lemon & cream"
+          },
+          "price": 32,
+          "calories": 380,
+          "allergens": [],
+          "image": "",
+          "isAvailable": true
+        },
+        {
+          "id": "rice-kubbah",
+          "name": {
+            "ar": "كبة أرز",
+            "en": "Rice Kubbah"
+          },
+          "description": {
+            "ar": "عجينة الأرز المقلية محشوة بلحمة الغنم المفرومة المتبلة تقدم مع الليمون المخلل",
+            "en": "Fried rice shell stuffed with spiced minced lamb, with pickled lemon"
+          },
+          "price": 33,
+          "calories": 510,
+          "allergens": [
+            "nuts"
+          ],
+          "image": "",
+          "isAvailable": true
+        },
+        {
+          "id": "kubbah-meat",
+          "name": {
+            "ar": "كبة لحم",
+            "en": "Kubbah Meat"
+          },
+          "description": {
+            "ar": "عجينة البرغل واللحم محشوة بلحم الغنم تقدم مع صلصة دبس الرمان والسماق",
+            "en": "Bulgur & meat shell stuffed with lamb, with pomegranate-molasses & sumac sauce"
+          },
+          "price": 39,
+          "calories": 396,
+          "allergens": [
+            "nuts",
+            "gluten"
+          ],
+          "image": "",
+          "isAvailable": true
+        },
+        {
+          "id": "cheese-herb-borek",
+          "name": {
+            "ar": "بوريك خضار",
+            "en": "Cheese & Herb Borek"
+          },
+          "description": {
+            "ar": "خليط من الأجبان المتبلة ببوريهات بلاد الرافدين تقدم مع البشاميل بالزبدة الذائبة",
+            "en": "Spiced cheeses in Mesopotamian borek pastry, with béchamel & melted butter"
+          },
+          "price": 32,
+          "calories": 453,
+          "allergens": [
+            "dairy",
+            "gluten"
+          ],
+          "image": "",
+          "isAvailable": true
+        },
+        {
+          "id": "borek-meat",
+          "name": {
+            "ar": "بوريك لحم",
+            "en": "Borek Meat"
+          },
+          "description": {
+            "ar": "لحم مفروم متبل مع البصل وبهارات بلاد الرافدين",
+            "en": "Spiced minced meat with onion & Mesopotamian spices"
+          },
+          "price": 34,
+          "calories": 495,
+          "allergens": [
+            "gluten"
+          ],
+          "image": "",
+          "isAvailable": true
+        },
+        {
+          "id": "cheese-samosa",
+          "name": {
+            "ar": "سمبوسة جبنة",
+            "en": "Cheese Samosa"
+          },
+          "description": {
+            "ar": "سمبوسة مقلية محشوة بجبنة الموزاريلا والحلوم",
+            "en": "Fried samosa filled with mozzarella & halloumi"
+          },
+          "price": 32,
+          "calories": 480,
+          "allergens": [
+            "dairy",
+            "gluten"
+          ],
+          "image": "/dishes/u-1601050690597-df0568f70950.jpg",
+          "isAvailable": true
+        }
+      ]
+    },
+    {
+      "id": "salads",
+      "name": {
+        "ar": "السلطات",
+        "en": "Salads"
+      },
+      "order": 3,
+      "coverImage": "/dishes/u-1540189549336-e6e99c3679fe.jpg",
+      "items": [
+        {
+          "id": "quinoa-salad",
+          "name": {
+            "ar": "سلطة الكينوا",
+            "en": "Quinoa Salad"
+          },
+          "description": {
+            "ar": "خليط من حبوب الكينوا والرمان والتفاح الأخضر مع الصوص المميز",
+            "en": "Quinoa, pomegranate & green apple with the house dressing"
+          },
+          "price": 45,
+          "calories": 380,
+          "allergens": [
+            "nuts"
+          ],
+          "image": "/dishes/u-1547496502-affa22d38842.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "eggplant-salad",
+          "name": {
+            "ar": "سلطة الباذنجان العراقية",
+            "en": "Eggplant & Vegetable Salad"
+          },
+          "description": {
+            "ar": "باذنجان مقرمش مع الخضار الطازجة ودبس الرمان",
+            "en": "Crispy eggplant with fresh vegetables & pomegranate molasses"
+          },
+          "price": 37,
+          "calories": 342,
+          "allergens": [
+            "gluten"
+          ],
+          "image": "",
+          "isAvailable": true
+        },
+        {
+          "id": "fattoush",
+          "name": {
+            "ar": "سلطة الفتوش",
+            "en": "Fattoush Salad"
+          },
+          "description": {
+            "ar": "خضروات طازجة مع الخبز المحمص ودبس الرمان",
+            "en": "Fresh vegetables with toasted bread & pomegranate molasses"
+          },
+          "price": 34,
+          "calories": 265,
+          "allergens": [
+            "gluten"
+          ],
+          "image": "/dishes/u-1540189549336-e6e99c3679fe.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "tabbouleh",
+          "name": {
+            "ar": "تبولة",
+            "en": "Tabbouleh"
+          },
+          "description": {
+            "ar": "بقدونس مفروم ناعم مع البرغل والطماطم وزيت الزيتون",
+            "en": "Finely chopped parsley with bulgur, tomato & olive oil"
+          },
+          "price": 34,
+          "calories": 222,
+          "allergens": [
+            "gluten"
+          ],
+          "image": "",
+          "isAvailable": true
+        },
+        {
+          "id": "beetroot-salad",
+          "name": {
+            "ar": "سلطة الشمندر",
+            "en": "Beetroot Salad"
+          },
+          "description": {
+            "ar": "شرائح الشمندر مع الجرجير وجبنة الفيتا والجوز",
+            "en": "Beetroot slices with rocket, feta & walnuts"
+          },
+          "price": 32,
+          "calories": 145,
+          "allergens": [
+            "nuts",
+            "dairy"
+          ],
+          "image": "/dishes/u-1540420773420-3366772f4999.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "al-wadi-salad",
+          "name": {
+            "ar": "سلطة الوادي",
+            "en": "Al-Wadi Salad"
+          },
+          "description": {
+            "ar": "خضار طازجة مع جبنة الحلوم المشوية",
+            "en": "Fresh vegetables with grilled halloumi"
+          },
+          "price": 39,
+          "calories": 360,
+          "allergens": [
+            "dairy"
+          ],
+          "image": "",
+          "isAvailable": true
+        },
+        {
+          "id": "corn-salad",
+          "name": {
+            "ar": "سلطة ذرة",
+            "en": "Corn Salad"
+          },
+          "description": {
+            "ar": "ذرة حلوة مع الخضار والصوص الكريمي",
+            "en": "Sweet corn with vegetables & creamy dressing"
+          },
+          "price": 40,
+          "calories": 510,
+          "allergens": [
+            "dairy"
+          ],
+          "image": "",
+          "isAvailable": true
+        },
+        {
+          "id": "chicken-broccoli-salad",
+          "name": {
+            "ar": "دجاج بالبروكلي",
+            "en": "Chicken & Broccoli Salad"
+          },
+          "description": {
+            "ar": "صدر دجاج مشوي مع البروكلي والصوص الخاص",
+            "en": "Grilled chicken breast with broccoli & house sauce"
+          },
+          "price": 44,
+          "calories": 590,
+          "allergens": [
+            "dairy"
+          ],
+          "image": "",
+          "isAvailable": true
+        },
+        {
+          "id": "baba-ghanouj",
+          "name": {
+            "ar": "بابا غنوج",
+            "en": "Baba Ghanouj"
+          },
+          "description": {
+            "ar": "باذنجان مشوي مفروم مع الخضروات ودبس الرمان",
+            "en": "Chopped roasted eggplant with vegetables & pomegranate molasses"
+          },
+          "price": 35,
+          "calories": 220,
+          "allergens": [],
+          "image": "",
+          "isAvailable": true
+        }
+      ]
+    },
+    {
+      "id": "grills",
+      "name": {
+        "ar": "المشاوي",
+        "en": "Charcoal Grills"
+      },
+      "order": 4,
+      "coverImage": "/dishes/u-1603360946369-dc9bb6258143.jpg",
+      "items": [
+        {
+          "id": "iraqi-kebab",
+          "name": {
+            "ar": "كباب عراقي",
+            "en": "Iraqi Kebab"
+          },
+          "description": {
+            "ar": "لحم غنم مفروم مع البقدونس والطماطم المشوية والخبز",
+            "en": "Minced lamb with parsley, grilled tomato & bread"
+          },
+          "price": 71,
+          "calories": 999,
+          "allergens": [
+            "gluten"
+          ],
+          "image": "/dishes/u-1603360946369-dc9bb6258143.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "lamb-tikka",
+          "name": {
+            "ar": "تكة لحم",
+            "en": "Lamb Tikka"
+          },
+          "description": {
+            "ar": "قطع لحم الغنم الطري المتبل المشوي على الفحم",
+            "en": "Tender spiced lamb pieces grilled on charcoal"
+          },
+          "price": 82,
+          "calories": 892,
+          "allergens": [
+            "gluten"
+          ],
+          "image": "/dishes/u-1599487488170-d11ec9c172f0.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "boneless-chicken",
+          "name": {
+            "ar": "دجاج مسحب مشوي على الفحم",
+            "en": "Boneless Chicken"
+          },
+          "description": {
+            "ar": "نصف دجاجة مسحبة متبلة مشوية على الفحم مع صلصة الثوم",
+            "en": "Half boneless spiced chicken on charcoal with garlic sauce"
+          },
+          "price": 69,
+          "calories": 863,
+          "allergens": [
+            "gluten"
+          ],
+          "image": "/dishes/u-1532550907401-a500c9a57435.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "arayes-platter",
+          "name": {
+            "ar": "عرايس لحم",
+            "en": "Arayes Platter"
+          },
+          "description": {
+            "ar": "خبز عربي محشو بلحم الغنم المتبل مشوي على الفحم",
+            "en": "Arabic bread stuffed with spiced lamb, charcoal-grilled"
+          },
+          "price": 55,
+          "calories": 814,
+          "allergens": [
+            "gluten",
+            "dairy"
+          ],
+          "image": "",
+          "isAvailable": true
+        },
+        {
+          "id": "chicken-tikka",
+          "name": {
+            "ar": "تكة دجاج",
+            "en": "Chicken Tikka"
+          },
+          "description": {
+            "ar": "قطع صدر الدجاج المتبلة مشوية على الفحم",
+            "en": "Spiced chicken breast pieces grilled on charcoal"
+          },
+          "price": 72,
+          "calories": 863,
+          "allergens": [
+            "gluten"
+          ],
+          "image": "/dishes/u-1628294895950-9805252327bc.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "lamb-chops",
+          "name": {
+            "ar": "ريش مشوية",
+            "en": "Lamb Chops"
+          },
+          "description": {
+            "ar": "ريش غنم طرية مشوية على الفحم مع الخضار المشوية",
+            "en": "Tender lamb chops on charcoal with grilled vegetables"
+          },
+          "price": 105,
+          "calories": 1330,
+          "allergens": [
+            "gluten"
+          ],
+          "image": "/dishes/u-1594041680534-e8c8cdebd659.jpg",
+          "isAvailable": true
+        }
+      ]
+    },
+    {
+      "id": "mains",
+      "name": {
+        "ar": "الأطباق الرئيسية",
+        "en": "Main Courses"
+      },
+      "order": 5,
+      "coverImage": "/dishes/u-1631515243349-e0cb75fb8d3a.jpg",
+      "items": [
+        {
+          "id": "masgouf",
+          "name": {
+            "ar": "مسكوف",
+            "en": "Masgouf"
+          },
+          "description": {
+            "ar": "سمك شبوط عراقي تقليدي مشوي على الحطب مع التمر الهندي والرز العراقي",
+            "en": "Traditional Iraqi carp grilled over wood, with tamarind & Iraqi rice"
+          },
+          "price": 165,
+          "calories": 1840,
+          "allergens": [
+            "nuts"
+          ],
+          "image": "/dishes/fish.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "lamb-quzi",
+          "name": {
+            "ar": "قوزي لحم",
+            "en": "Lamb Quzi"
+          },
+          "description": {
+            "ar": "موزة غنم مطهوة ببطء مع رز عنبر بالزعفران والمكسرات والمرق",
+            "en": "Slow-cooked lamb shank with saffron amber rice, nuts & broth"
+          },
+          "price": 97,
+          "calories": 1270,
+          "allergens": [
+            "nuts",
+            "dairy"
+          ],
+          "image": "/dishes/u-1631515243349-e0cb75fb8d3a.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "chicken-biryani",
+          "name": {
+            "ar": "برياني دجاج",
+            "en": "Chicken Biryani"
+          },
+          "description": {
+            "ar": "دجاج محمر على الطريقة العراقية مع رز البرياني والشعرية واللوز",
+            "en": "Iraqi-style roasted chicken with biryani rice, vermicelli & almonds"
+          },
+          "price": 74,
+          "calories": 1140,
+          "allergens": [
+            "nuts"
+          ],
+          "image": "/dishes/u-1589302168068-964664d93dc0.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "lamb-biryani",
+          "name": {
+            "ar": "برياني لحم",
+            "en": "Lamb Biryani"
+          },
+          "description": {
+            "ar": "موزة غنم مطهوة ببطء مع رز البرياني العراقي والمكسرات",
+            "en": "Slow-cooked lamb shank with Iraqi biryani rice & nuts"
+          },
+          "price": 87,
+          "calories": 1240,
+          "allergens": [
+            "nuts"
+          ],
+          "image": "/dishes/u-1633945274405-b6c8069047b0.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "maqluba",
+          "name": {
+            "ar": "مقلوبة لحم باذنجان",
+            "en": "Maqluba Meat & Eggplant"
+          },
+          "description": {
+            "ar": "طبقات رز وباذنجان ولحم غنم مقلوبة تقدم مع اللبن",
+            "en": "Upside-down layers of rice, eggplant & lamb, served with yoghurt"
+          },
+          "price": 89,
+          "calories": 1320,
+          "allergens": [
+            "nuts",
+            "dairy"
+          ],
+          "image": "",
+          "isAvailable": true
+        },
+        {
+          "id": "eggplant-casserole",
+          "name": {
+            "ar": "تبسي باذنجان",
+            "en": "Baked Eggplant Casserole"
+          },
+          "description": {
+            "ar": "باذنجان مقلي مطبوخ بصلصة الطماطم واللحم بالفرن",
+            "en": "Fried eggplant baked with tomato sauce & meat"
+          },
+          "price": 68,
+          "calories": 780,
+          "allergens": [
+            "gluten"
+          ],
+          "image": "",
+          "isAvailable": true
+        },
+        {
+          "id": "white-bean-stew",
+          "name": {
+            "ar": "مرق فاصوليا",
+            "en": "White Bean Stew"
+          },
+          "description": {
+            "ar": "فاصوليا بيضاء وقطع لحم الغنم مطهوة مع مرق الطماطم",
+            "en": "White beans & lamb pieces cooked in tomato broth"
+          },
+          "price": 49,
+          "calories": 450,
+          "allergens": [
+            "nuts"
+          ],
+          "image": "",
+          "isAvailable": true
+        },
+        {
+          "id": "baked-meat-casserole",
+          "name": {
+            "ar": "تبسي لحم بالفرن",
+            "en": "Baked Meat Casserole"
+          },
+          "description": {
+            "ar": "الباذنجان المقلي والبصل والطماطم والبطاطا مطهو بصلصة الطماطم الغنية بالأعشاب وبهارات بلاد الرافدين",
+            "en": "Fried eggplant, onion, tomato & potato in a herby tomato sauce with Mesopotamian spices"
+          },
+          "price": 68,
+          "calories": 831,
+          "allergens": [],
+          "image": "",
+          "isAvailable": true
+        }
+      ]
+    },
+    {
+      "id": "feasts",
+      "name": {
+        "ar": "أطباق الولائم",
+        "en": "Feast Platters"
+      },
+      "order": 6,
+      "coverImage": "/dishes/u-1555939594-58d7cb561ad1.jpg",
+      "items": [
+        {
+          "id": "aghatti-grill-platter",
+          "name": {
+            "ar": "صحن مشاوى أغاتي",
+            "en": "Aghatti Mixed Grill Platter"
+          },
+          "description": {
+            "ar": "تشكيلة ملكية من الكباب العراقي والتكة والريش والدجاج المسحب تكفي 3-4 أشخاص",
+            "en": "A royal selection of Iraqi kebab, tikka, lamb chops & boneless chicken for 3–4 people"
+          },
+          "price": 235,
+          "calories": 3280,
+          "allergens": [
+            "gluten",
+            "dairy"
+          ],
+          "image": "/dishes/u-1555939594-58d7cb561ad1.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "whole-stuffed-lamb",
+          "name": {
+            "ar": "الخروف",
+            "en": "Whole Stuffed Lamb"
+          },
+          "description": {
+            "ar": "خروف كامل مطهو على الحطب محشو ومحمر يقدم مع الرز العراقي والمكسرات",
+            "en": "Whole lamb, stuffed and roasted over wood, with Iraqi rice & nuts"
+          },
+          "price": 2600,
+          "calories": 18500,
+          "allergens": [
+            "nuts",
+            "dairy"
+          ],
+          "image": "",
+          "isAvailable": true
+        }
+      ]
+    },
+    {
+      "id": "sides",
+      "name": {
+        "ar": "الأطباق الجانبية",
+        "en": "Sides"
+      },
+      "order": 7,
+      "coverImage": "/dishes/u-1512058564366-18510be2db19.jpg",
+      "items": [
+        {
+          "id": "fava-rice",
+          "name": {
+            "ar": "تمن (أرز) باقيلاء",
+            "en": "Fava Beans Rice Pot"
+          },
+          "description": {
+            "ar": "رز مطبوخ مع الفول الأخضر والشبنت والزبدة",
+            "en": "Rice cooked with green fava beans, dill & butter"
+          },
+          "price": 28,
+          "calories": 451,
+          "allergens": [
+            "dairy"
+          ],
+          "image": "/dishes/u-1512058564366-18510be2db19.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "biryani-rice",
+          "name": {
+            "ar": "تمن (أرز) برياني",
+            "en": "Biryani Rice Pot"
+          },
+          "description": {
+            "ar": "رز مبهر على الطريقة العراقية بالشعرية واللوز والزبيب",
+            "en": "Iraqi spiced rice with vermicelli, almonds & raisins"
+          },
+          "price": 28,
+          "calories": 468,
+          "allergens": [
+            "nuts"
+          ],
+          "image": "/dishes/u-1563379091339-03b21ab4a4f8.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "white-rice",
+          "name": {
+            "ar": "تمن (أرز) أبيض",
+            "en": "White Rice"
+          },
+          "description": {
+            "ar": "رز أبيض بالشعرية",
+            "en": "White rice with vermicelli"
+          },
+          "price": 15,
+          "calories": 290,
+          "allergens": [],
+          "image": "/dishes/u-1516684732162-798a0062be99.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "french-fries",
+          "name": {
+            "ar": "بطاطا مقلية",
+            "en": "French Fries"
+          },
+          "description": {
+            "ar": "بطاطا مقرمشة",
+            "en": "Crispy fries"
+          },
+          "price": 16,
+          "calories": 410,
+          "allergens": [],
+          "image": "/dishes/u-1541592106381-b31e9677c0e5.jpg",
+          "isAvailable": true
+        }
+      ]
+    },
+    {
+      "id": "desserts",
+      "name": {
+        "ar": "الحلويات",
+        "en": "Desserts"
+      },
+      "order": 8,
+      "coverImage": "/dishes/u-1488477181946-6428a0291777.jpg",
+      "items": [
+        {
+          "id": "kunafa-pan",
+          "name": {
+            "ar": "كنافة في الصينية",
+            "en": "Cheese Kunafa in a Pan"
+          },
+          "description": {
+            "ar": "كنافة محشوة بجبنة العكاوي والفستق الحلبي مع البوظة",
+            "en": "Kunafa filled with akkawi cheese & pistachio, with ice cream"
+          },
+          "price": 39,
+          "calories": 690,
+          "allergens": [
+            "gluten",
+            "dairy",
+            "nuts"
+          ],
+          "image": "",
+          "isAvailable": true
+        },
+        {
+          "id": "umm-ali",
+          "name": {
+            "ar": "أم علي",
+            "en": "Umm Ali"
+          },
+          "description": {
+            "ar": "رقائق مغموسة بالحليب والمكسرات والقشطة والكريمة",
+            "en": "Pastry soaked in milk with nuts, clotted cream & cream"
+          },
+          "price": 39,
+          "calories": 600,
+          "allergens": [
+            "gluten",
+            "dairy",
+            "nuts"
+          ],
+          "image": "",
+          "isAvailable": true
+        },
+        {
+          "id": "saraya-bread",
+          "name": {
+            "ar": "عيش السرايا",
+            "en": "Saraya Bread"
+          },
+          "description": {
+            "ar": "خبز التوست المكرمل مع القشطة وبوظة الفستق",
+            "en": "Caramelised toast with clotted cream & pistachio ice cream"
+          },
+          "price": 35,
+          "calories": 466,
+          "allergens": [
+            "gluten",
+            "dairy",
+            "nuts"
+          ],
+          "image": "",
+          "isAvailable": true
+        },
+        {
+          "id": "ghazalia",
+          "name": {
+            "ar": "غزلية",
+            "en": "Ghazalia"
+          },
+          "description": {
+            "ar": "قشطة مع كريمة وغزل البنات وصلصة الباشن فروت",
+            "en": "Clotted cream & cream with cotton candy & passion-fruit sauce"
+          },
+          "price": 35,
+          "calories": 547,
+          "allergens": [
+            "dairy",
+            "nuts"
+          ],
+          "image": "",
+          "isAvailable": true
+        },
+        {
+          "id": "madkoka-aghatti",
+          "name": {
+            "ar": "مدكوكة أغاتي",
+            "en": "Madkoka Aghatti"
+          },
+          "description": {
+            "ar": "خليط الجوز والسمسم والتمر محشو بقشطة أغاتي",
+            "en": "Walnuts, sesame & dates filled with Aghatti clotted cream"
+          },
+          "price": 35,
+          "calories": 564,
+          "allergens": [
+            "nuts",
+            "seed"
+          ],
+          "image": "",
+          "isAvailable": true
+        },
+        {
+          "id": "osmaliah",
+          "name": {
+            "ar": "عثملية",
+            "en": "Osmaliah"
+          },
+          "description": {
+            "ar": "عجينة الكنافة المحمصة محشوة بقشطة أغاتي",
+            "en": "Toasted kunafa pastry filled with Aghatti clotted cream"
+          },
+          "price": 35,
+          "calories": 200,
+          "allergens": [
+            "gluten",
+            "dairy",
+            "nuts"
+          ],
+          "image": "",
+          "isAvailable": true
+        }
+      ]
+    },
+    {
+      "id": "beverages",
+      "name": {
+        "ar": "المشروبات والقهوة",
+        "en": "Beverages, Mocktails & Coffee"
+      },
+      "order": 9,
+      "coverImage": "/dishes/u-1553530666-ba11a7da3888.jpg",
+      "items": [
+        {
+          "id": "carrot-juice",
+          "name": {
+            "ar": "عصير جزر",
+            "en": "Carrot"
+          },
+          "description": {
+            "ar": "عصير طازج",
+            "en": "Fresh juice"
+          },
+          "price": 16,
+          "calories": 165,
+          "allergens": [],
+          "image": "",
+          "isAvailable": true
+        },
+        {
+          "id": "green-apple-juice",
+          "name": {
+            "ar": "عصير تفاح أخضر",
+            "en": "Green Apple"
+          },
+          "description": {
+            "ar": "عصير طازج",
+            "en": "Fresh juice"
+          },
+          "price": 22,
+          "calories": 181,
+          "allergens": [],
+          "image": "/dishes/u-1610970881699-44a5587cabec.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "orange-juice",
+          "name": {
+            "ar": "عصير برتقال",
+            "en": "Fresh Orange"
+          },
+          "description": {
+            "ar": "عصير طازج",
+            "en": "Fresh juice"
+          },
+          "price": 22,
+          "calories": null,
+          "allergens": [],
+          "image": "/dishes/u-1613478223719-2ab802602423.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "pomegranate-juice",
+          "name": {
+            "ar": "عصير رمان",
+            "en": "Fresh Pomegranate"
+          },
+          "description": {
+            "ar": "عصير طازج",
+            "en": "Fresh juice"
+          },
+          "price": 25,
+          "calories": null,
+          "allergens": [],
+          "image": "",
+          "isAvailable": true
+        },
+        {
+          "id": "mix-berry",
+          "name": {
+            "ar": "توت مشكل",
+            "en": "Mix Berry"
+          },
+          "description": {
+            "ar": "موكتيل",
+            "en": "Mocktail"
+          },
+          "price": 32,
+          "calories": 358,
+          "allergens": [],
+          "image": "/dishes/u-1553530666-ba11a7da3888.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "blue-lagoon",
+          "name": {
+            "ar": "بلو لاجون",
+            "en": "Blue Lagoon"
+          },
+          "description": {
+            "ar": "موكتيل",
+            "en": "Mocktail"
+          },
+          "price": 30,
+          "calories": 412,
+          "allergens": [],
+          "image": "",
+          "isAvailable": true
+        },
+        {
+          "id": "smoothie-mango",
+          "name": {
+            "ar": "سموذي مانجو",
+            "en": "Smoothie Mango"
+          },
+          "description": {
+            "ar": "موكتيل",
+            "en": "Mocktail"
+          },
+          "price": 30,
+          "calories": 240,
+          "allergens": [],
+          "image": "/dishes/u-1546173159-315724a31696.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "lemon-pearl",
+          "name": {
+            "ar": "ليمون ورمان",
+            "en": "Lemon Pearl"
+          },
+          "description": {
+            "ar": "موكتيل",
+            "en": "Mocktail"
+          },
+          "price": 32,
+          "calories": 195,
+          "allergens": [],
+          "image": "/dishes/u-1497534446932-c925b458314e.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "lemon-mint",
+          "name": {
+            "ar": "ليمون نعناع",
+            "en": "Lemon Mint"
+          },
+          "description": {
+            "ar": "موكتيل",
+            "en": "Mocktail"
+          },
+          "price": 25,
+          "calories": 170,
+          "allergens": [],
+          "image": "/dishes/u-1513558161293-cdaf765ed2fd.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "pineapple-mint",
+          "name": {
+            "ar": "برفكت أناناس نعناع",
+            "en": "Perfect Pineapple Mint"
+          },
+          "description": {
+            "ar": "موكتيل",
+            "en": "Mocktail"
+          },
+          "price": 30,
+          "calories": 145,
+          "allergens": [],
+          "image": "",
+          "isAvailable": true
+        },
+        {
+          "id": "passion-fruit",
+          "name": {
+            "ar": "باشن فروت",
+            "en": "Passion Fruit"
+          },
+          "description": {
+            "ar": "موكتيل",
+            "en": "Mocktail"
+          },
+          "price": 35,
+          "calories": 190,
+          "allergens": [],
+          "image": "",
+          "isAvailable": true
+        },
+        {
+          "id": "soft-drinks",
+          "name": {
+            "ar": "مشروبات غازية",
+            "en": "Soft Drinks"
+          },
+          "description": {
+            "ar": "مشروبات غازية ومياه",
+            "en": "Soft drinks & water"
+          },
+          "price": 12,
+          "calories": null,
+          "allergens": [],
+          "image": "",
+          "isAvailable": true
+        },
+        {
+          "id": "sparkling-water",
+          "name": {
+            "ar": "مياه فوارة 250 مل",
+            "en": "Sparkling Water 250ml"
+          },
+          "description": {
+            "ar": "مشروبات غازية ومياه",
+            "en": "Soft drinks & water"
+          },
+          "price": 15,
+          "calories": null,
+          "allergens": [],
+          "image": "",
+          "isAvailable": true
+        },
+        {
+          "id": "pellegrino-lemon",
+          "name": {
+            "ar": "مياه غازية بالليمون 250 مل",
+            "en": "San Pellegrino Lemon"
+          },
+          "description": {
+            "ar": "مشروبات غازية ومياه",
+            "en": "Soft drinks & water"
+          },
+          "price": 22,
+          "calories": null,
+          "allergens": [],
+          "image": "",
+          "isAvailable": true
+        },
+        {
+          "id": "pellegrino-pomegranate",
+          "name": {
+            "ar": "مياه غازية بالرمان 250 مل",
+            "en": "San Pellegrino Pomegranate"
+          },
+          "description": {
+            "ar": "مشروبات غازية ومياه",
+            "en": "Soft drinks & water"
+          },
+          "price": 22,
+          "calories": null,
+          "allergens": [],
+          "image": "",
+          "isAvailable": true
+        },
+        {
+          "id": "mineral-water-330",
+          "name": {
+            "ar": "مياه معدنية 330 مل",
+            "en": "Mineral Water 330ml"
+          },
+          "description": {
+            "ar": "مشروبات غازية ومياه",
+            "en": "Soft drinks & water"
+          },
+          "price": 8,
+          "calories": null,
+          "allergens": [],
+          "image": "",
+          "isAvailable": true
+        },
+        {
+          "id": "mineral-water-750",
+          "name": {
+            "ar": "مياه معدنية 750 مل",
+            "en": "Mineral Water 750ml"
+          },
+          "description": {
+            "ar": "مشروبات غازية ومياه",
+            "en": "Soft drinks & water"
+          },
+          "price": 14,
+          "calories": null,
+          "allergens": [],
+          "image": "",
+          "isAvailable": true
+        },
+        {
+          "id": "single-espresso",
+          "name": {
+            "ar": "إسبريسو سينجل",
+            "en": "Single Espresso"
+          },
+          "description": {
+            "ar": "القهوة والشاي",
+            "en": "Tea & coffee"
+          },
+          "price": 9,
+          "calories": 20,
+          "allergens": [],
+          "image": "",
+          "isAvailable": true
+        },
+        {
+          "id": "double-espresso",
+          "name": {
+            "ar": "إسبريسو دبل",
+            "en": "Double Espresso"
+          },
+          "description": {
+            "ar": "القهوة والشاي",
+            "en": "Tea & coffee"
+          },
+          "price": 14,
+          "calories": 40,
+          "allergens": [],
+          "image": "",
+          "isAvailable": true
+        },
+        {
+          "id": "americano",
+          "name": {
+            "ar": "أمريكانو",
+            "en": "Americano"
+          },
+          "description": {
+            "ar": "القهوة والشاي",
+            "en": "Tea & coffee"
+          },
+          "price": 20,
+          "calories": 40,
+          "allergens": [],
+          "image": "/dishes/u-1510591509098-f4fdc6d0ff04.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "cappuccino",
+          "name": {
+            "ar": "كابتشينو",
+            "en": "Cappuccino"
+          },
+          "description": {
+            "ar": "القهوة والشاي",
+            "en": "Tea & coffee"
+          },
+          "price": 23,
+          "calories": 140,
+          "allergens": [
+            "dairy"
+          ],
+          "image": "/dishes/u-1572442388796-11668a67e53d.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "cafe-latte",
+          "name": {
+            "ar": "كافيه لاتيه",
+            "en": "Cafe Latte"
+          },
+          "description": {
+            "ar": "القهوة والشاي",
+            "en": "Tea & coffee"
+          },
+          "price": 23,
+          "calories": 190,
+          "allergens": [
+            "dairy"
+          ],
+          "image": "/dishes/u-1509042239860-f550ce710b93.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "turkish-coffee",
+          "name": {
+            "ar": "قهوة تركي",
+            "en": "Turkish Coffee"
+          },
+          "description": {
+            "ar": "القهوة والشاي",
+            "en": "Tea & coffee"
+          },
+          "price": 18,
+          "calories": 20,
+          "allergens": [],
+          "image": "",
+          "isAvailable": true
+        },
+        {
+          "id": "iraqi-tea",
+          "name": {
+            "ar": "شاي عراقي",
+            "en": "Iraqi Tea"
+          },
+          "description": {
+            "ar": "القهوة والشاي",
+            "en": "Tea & coffee"
+          },
+          "price": 13,
+          "calories": 5,
+          "allergens": [],
+          "image": "/dishes/u-1576092768241-dec231879fc3.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": "green-tea-mint",
+          "name": {
+            "ar": "شاي أخضر بالنعناع",
+            "en": "Green Tea with Mint"
+          },
+          "description": {
+            "ar": "القهوة والشاي",
+            "en": "Tea & coffee"
+          },
+          "price": 13,
+          "calories": 2,
+          "allergens": [],
+          "image": "",
+          "isAvailable": true
+        }
+      ]
+    }
+  ],
+  "setMenu": {
+    "title": {
+      "ar": "قائمة الغداء المميزة",
+      "en": "Set Menu"
+    },
+    "price": 115,
+    "note": {
+      "ar": "للشخص الواحد · شامل ضريبة القيمة المضافة",
+      "en": "Per person · VAT included"
+    },
+    "courses": [
+      {
+        "name": {
+          "ar": "الشوربة",
+          "en": "Soup"
+        },
+        "options": [
+          {
+            "ar": "عدس",
+            "en": "Lentil"
+          },
+          {
+            "ar": "كريمة الدجاج",
+            "en": "Cream of Chicken"
+          },
+          {
+            "ar": "باجي",
+            "en": "Pacha"
+          }
+        ]
+      },
+      {
+        "name": {
+          "ar": "السلطات",
+          "en": "Salads"
+        },
+        "options": [
+          {
+            "ar": "فتوش",
+            "en": "Fattoush"
+          },
+          {
+            "ar": "سلطة الوادي",
+            "en": "Al-Wadi Salad"
+          }
+        ]
+      },
+      {
+        "name": {
+          "ar": "المقبلات الباردة",
+          "en": "Cold Appetizers"
+        },
+        "all": true,
+        "options": [
+          {
+            "ar": "حمص",
+            "en": "Hummus"
+          },
+          {
+            "ar": "متبل",
+            "en": "Moutabal"
+          },
+          {
+            "ar": "بابا غنوج",
+            "en": "Baba Ghanouj"
+          },
+          {
+            "ar": "محمرة",
+            "en": "Muhammara"
+          }
+        ]
+      },
+      {
+        "name": {
+          "ar": "المقبلات الساخنة",
+          "en": "Hot Appetizers"
+        },
+        "all": true,
+        "options": [
+          {
+            "ar": "كبة لحم",
+            "en": "Kubbah Meat"
+          },
+          {
+            "ar": "سمبوسة",
+            "en": "Samosa"
+          },
+          {
+            "ar": "بوريك",
+            "en": "Borek"
+          },
+          {
+            "ar": "بطاطا حارة",
+            "en": "Spicy Potato"
+          }
+        ]
+      },
+      {
+        "name": {
+          "ar": "الأطباق الرئيسية",
+          "en": "Main Course"
+        },
+        "options": [
+          {
+            "ar": "مسكوف",
+            "en": "Masgouf"
+          },
+          {
+            "ar": "قوزي لحم",
+            "en": "Lamb Quzi"
+          }
+        ]
+      },
+      {
+        "name": {
+          "ar": "الأطباق الجانبية",
+          "en": "Side"
+        },
+        "options": [
+          {
+            "ar": "تمن أبيض",
+            "en": "White Rice"
+          },
+          {
+            "ar": "برياني",
+            "en": "Biryani Rice"
+          }
+        ]
+      },
+      {
+        "name": {
+          "ar": "الحلويات",
+          "en": "Dessert"
+        },
+        "options": [
+          {
+            "ar": "أم علي",
+            "en": "Umm Ali"
+          },
+          {
+            "ar": "غزلية",
+            "en": "Ghazalia"
+          },
+          {
+            "ar": "مدكوكة أغاتي",
+            "en": "Madkoka Aghatti"
+          }
+        ]
+      },
+      {
+        "name": {
+          "ar": "المشروبات",
+          "en": "Drinks"
+        },
+        "all": true,
+        "options": [
+          {
+            "ar": "مياه معدنية",
+            "en": "Mineral Water"
+          },
+          {
+            "ar": "مشروب غازي",
+            "en": "Soft Drink"
+          },
+          {
+            "ar": "قهوة تركية أو شاي عراقي",
+            "en": "Turkish Coffee or Iraqi Tea"
+          }
+        ]
+      }
+    ]
+  },
+  "updatedAt": "2026-11-15T00:00:00.000Z"
+}
