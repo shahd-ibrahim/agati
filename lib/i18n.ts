@@ -2,27 +2,25 @@ import type { Allergen, Lang, LocalizedString } from "./types";
 
 export const t = (s: LocalizedString | undefined, lang: Lang) => (s ? s[lang] || s.ar || s.en : "");
 
-const nf = {
-  ar: new Intl.NumberFormat("ar-SA", { numberingSystem: "arab", maximumFractionDigits: 2 }),
-  en: new Intl.NumberFormat("en-US", { maximumFractionDigits: 2 }),
-};
+// Western digits in both languages, as on the printed Aghatti menu ("35.00 ر.س").
+const nf = new Intl.NumberFormat("en-US", { maximumFractionDigits: 2 });
+const money = new Intl.NumberFormat("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 
-export const formatNumber = (n: number, lang: Lang) => nf[lang].format(n);
+export const formatNumber = (n: number, _lang?: Lang) => nf.format(n);
 
-/** `٩٥ ر.س` in Arabic, `SAR 95` in English. */
-export const formatPrice = (n: number, lang: Lang) =>
-  lang === "ar" ? `${formatNumber(n, lang)} ر.س` : `SAR ${formatNumber(n, lang)}`;
+/** `35.00 ر.س` in Arabic, `SAR 35.00` in English. */
+export const formatPrice = (n: number, lang: Lang) => (lang === "ar" ? `${money.format(n)} ر.س` : `SAR ${money.format(n)}`);
 
 /** `null` means the kitchen hasn't supplied a value yet: shown as "—" instead of a made-up number. */
 export const formatCalories = (n: number | null, lang: Lang) =>
-  n === null ? (lang === "ar" ? "— سعرة" : "— cal") : lang === "ar" ? `${formatNumber(n, lang)} سعرة` : `${formatNumber(n, lang)} cal`;
+  n === null ? (lang === "ar" ? "— سعرة حرارية" : "— cal") : lang === "ar" ? `${nf.format(n)} سعرة حرارية` : `${nf.format(n)} cal`;
 
 export const allergenLabels: Record<Allergen, LocalizedString> = {
   spicy: { ar: "حار", en: "Spicy" },
   nuts: { ar: "مكسرات", en: "Nuts" },
-  dairy: { ar: "ألبان", en: "Dairy" },
-  gluten: { ar: "غلوتين", en: "Gluten" },
-  seed: { ar: "بقوليات / بذور", en: "Bean / Seed" },
+  dairy: { ar: "حليب", en: "Dairy" },
+  gluten: { ar: "قمح", en: "Gluten" },
+  seed: { ar: "سمسم / بقول", en: "Sesame / Beans" },
   fish: { ar: "أسماك", en: "Fish" },
   chef: { ar: "اختيار الشيف", en: "Chef's Choice" },
 };
@@ -63,7 +61,7 @@ const dict = {
   service: { ar: "الخدمة", en: "Service" },
   close: { ar: "إغلاق", en: "Close" },
   sfda: {
-    ar: "يحتاج البالغون إلى ٢٠٠٠ سعرة حرارية في المتوسط يومياً، وقد تختلف الاحتياجات من شخص لآخر",
+    ar: "يحتاج البالغون إلى 2,000 سعرة حرارية في المتوسط يومياً، وقد تختلف الاحتياجات من شخص لآخر",
     en: "Adults need an average of 2,000 calories a day; individual needs may vary",
   },
   pricesNote: { ar: "جميع الأسعار بالريال السعودي وتشمل ضريبة القيمة المضافة 15%", en: "All prices in SAR · 15% VAT included" },

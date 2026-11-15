@@ -1,13 +1,12 @@
 import type { Metadata, Viewport } from "next";
 import { cookies } from "next/headers";
-import { Cairo, Playfair_Display, Plus_Jakarta_Sans } from "next/font/google";
+import { Cairo, Plus_Jakarta_Sans } from "next/font/google";
 import { AppProvider } from "@/components/AppProvider";
 import { restaurant } from "@/lib/config";
 import type { Lang, Theme } from "@/lib/types";
 import "./globals.css";
 
 const cairo = Cairo({ subsets: ["arabic", "latin"], weight: ["400", "500", "600", "700", "800"], variable: "--font-cairo", display: "swap" });
-const playfair = Playfair_Display({ subsets: ["latin"], weight: ["600", "700", "800", "900"], variable: "--font-playfair", display: "swap" });
 const jakarta = Plus_Jakarta_Sans({ subsets: ["latin"], weight: ["400", "500", "600", "700"], variable: "--font-jakarta", display: "swap" });
 
 export const metadata: Metadata = {
@@ -21,8 +20,8 @@ export const viewport: Viewport = {
   initialScale: 1,
   viewportFit: "cover",
   themeColor: [
-    { media: "(prefers-color-scheme: dark)", color: "#0B0E11" },
-    { media: "(prefers-color-scheme: light)", color: "#0B0E11" },
+    { media: "(prefers-color-scheme: dark)", color: "#FAF8F5" },
+    { media: "(prefers-color-scheme: light)", color: "#FAF8F5" },
   ],
 };
 
@@ -30,13 +29,14 @@ export default async function RootLayout({ children }: { children: React.ReactNo
   // Language & theme live in cookies so the server renders the right direction/theme: no flash, no layout shift.
   const store = await cookies();
   const lang: Lang = store.get("lang")?.value === "en" ? "en" : "ar";
-  const theme: Theme = store.get("ui-theme")?.value === "light" ? "light" : "dark";
+  // Light is the default; dark only if someone switched it on in /admin.
+  const theme: Theme = store.get("ui-theme")?.value === "dark" ? "dark" : "light";
 
   return (
     <html
       lang={lang}
       dir={lang === "ar" ? "rtl" : "ltr"}
-      className={`${theme === "dark" ? "dark" : ""} ${cairo.variable} ${playfair.variable} ${jakarta.variable}`}
+      className={`${theme === "dark" ? "dark" : ""} ${cairo.variable} ${jakarta.variable}`}
       suppressHydrationWarning
     >
       <body className="min-h-dvh">

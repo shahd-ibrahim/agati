@@ -2,15 +2,18 @@
 
 Luxury, mobile-first bilingual (Arabic RTL default / English LTR) restaurant menu built with Next.js 16 (App Router), TypeScript, Tailwind CSS 4 and Framer Motion.
 
-The menu is a **Cosmic Gastronomy Portal** on luxury dark (`#05070B`) in the brand turquoise `#1ECAD3` and light blue `#63D2FF`:
+A calm, warm **light-mode** hospitality menu (cream `#FAF8F5`, white cards, charcoal text, Aghatti turquoise `#17A2B8` only as a small accent), inspired by fine-dining QR menus:
 
-- **Holographic reveal** (1.1s, once per visit): the Aghatti logo flickers in with scan-lines and a light sweep.
-- **Category hub**: a 3D parallax starfield, the logo in orbit rings, the `عربي | EN` switch, and a glowing **Set Menu 115 SAR** banner that opens the full 8-course set menu. All 10 categories appear as floating glass portals with magnetic spring tilt and item counts. There is no hidden top tab bar.
-- **Warp zoom**: the chosen portal rushes forward, the stars streak and a light burst lands you on the category.
-- **Anti-gravity dish stage**: one dish at a time in a large levitating frame (y ±4px, 5s loop). It has a neon-glass SAR price badge, a calorie pill and allergen icons (Spicy, Gluten, Nuts, Dairy, Bean/Seed), glowing left/right arrows, swipe, a **Dish index** drawer for jumping, a tap-to-expand full-size view, and a **← كل الأقسام / All Categories** pill at the top. The phone's back gesture also returns to the hub.
-- **Live search** (sticky top bar on every screen): matches Arabic and English dish names, descriptions and category names as you type. Arabic spelling variants match each other (ة/ه, أ/إ/ا, ى/ي, diacritics), so كبه finds كبة. Results show both names, a category badge, calories and price, plus quick chips for matching categories. Tapping a result opens that dish's category, selects the dish and opens its full-size photo.
-- **القائمة الشاملة / Full Index** (top pill and a hub card): a text-only list of the Set Menu and all 10 categories, with turquoise section headers and section jump chips. Each row shows the name in both languages, calories and allergens, and the price. Tapping a dish closes the index and opens that dish's photo.
-- View-only menu: no cart or online ordering. Animations use `transform`/`opacity` only; the starfield pauses in background tabs and stays still for reduced-motion users.
+1. **Welcome gate**: the Aghatti logo, a welcome line, and two buttons, **العربية** and **English**. It is shown once per visit.
+2. **Menu**:
+   - **Top bar:** logo + "قائمة الطعام", an `العربية / English` switch and a **القائمة الشاملة / Full Index** button.
+   - **Category strip:** a horizontally scrollable row of rounded thumbnail tiles, with **Set Menu 115 SAR** first, then the 10 categories. The active tile has a turquoise ring.
+   - **Search:** a full-width bar (`بحث في القائمة...`) that filters all 80 items and the category names live. Arabic spelling variants match each other (كبه ⇄ كبة).
+   - **Dish cards:** the active category heading with its count (`المقبلات الباردة • 8 أصناف`), then horizontal white cards with name, a 2-line description, allergen pills (حليب، قمح، مكسرات، سمسم / بقول…), a `🔥 250 سعرة حرارية` badge, the price (`35.00 ر.س`) and a 96×96 photo.
+3. **Dish sheet**: tapping a card opens the full photo with both languages, calories and allergens. Swipe or use the arrows to move through the category.
+4. **Full Index**: a text-only list of the Set Menu and every category and dish. Tapping a dish jumps to its category and opens its photo.
+
+Prices and calories use Western digits in both languages, as on the printed menu.
 
 ## Run
 
@@ -123,7 +126,7 @@ app/
   api/menu/bulk, api/categories       bulk dish operations, category CRUD + reorder
   api/admin/session                   login / logout
 components/
-  CosmicMenu (portal, category view, dish cards, portal dock), cosmic/Starfield, cosmic/TiltCard, DishLightbox, MenuExperience, QrGate, QrGenerator, AppProvider, ui
+  MenuExperience (welcome gate, top bar, category strip, search, dish list), menu/parts, menu/DishModal, menu/FullIndex, QrGate, QrGenerator, AppProvider, ui
 lib/
-  types.ts, i18n.ts, config.ts, menu-store.ts, auth.ts, qr-token.ts
+  types.ts, i18n.ts, config.ts, search.ts, menu-store.ts, auth.ts, qr-token.ts
 ```

@@ -45,7 +45,7 @@ export function QrGate({
   initialMenu,
 }: {
   verified: boolean;
-  /** Opened via QR_DEMO_MODE, not a real scan: show a badge and don't grant session access to /t/ links. */
+  /** Opened via QR_DEMO_MODE, not a real scan: don't grant session access to /t/ links. */
   demo?: boolean;
   table: string | null;
   initialMenu: MenuData | null;
@@ -75,23 +75,9 @@ export function QrGate({
     return (
       <>
         <MenuExperience initialMenu={menu} tableId={verified ? (table ?? undefined) : undefined} />
-        {demo && <DemoBadge />}
       </>
     );
   return <LockScreen checking={state !== "locked"} />;
-}
-
-/** Small reminder that the QR-only lock is switched off (QR_DEMO_MODE). */
-function DemoBadge() {
-  const { lang } = useApp();
-  return (
-    <div
-      className="font-ui pointer-events-none fixed bottom-3 start-3 z-[45] rounded-full border px-3 py-1 text-[10px] font-bold tracking-wide"
-      style={{ background: "rgba(5,7,11,0.8)", borderColor: "rgba(250,204,21,0.55)", color: "#FACC15" }}
-    >
-      {lang === "ar" ? "وضع العرض · قفل QR متوقف" : "DEMO MODE · QR lock off"}
-    </div>
-  );
 }
 
 function LockScreen({ checking }: { checking: boolean }) {
