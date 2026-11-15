@@ -38,13 +38,24 @@ function writeAccess(table: string | null) {
  * valid, the menu is rendered right away and the grant is saved in sessionStorage, so
  * reloads, `/` and other pages keep working for the rest of the session.
  */
-export function QrGate({ verified, table, initialMenu }: { verified: boolean; table: string | null; initialMenu: MenuData | null }) {
+export function QrGate({
+  verified,
+  demo = false,
+  table,
+  initialMenu,
+}: {
+  verified: boolean;
+  /** Opened via QR_DEMO_MODE, not a real scan: show a badge and don't grant session access to /t/ links. */
+  demo?: boolean;
+  table: string | null;
+  initialMenu: MenuData | null;
+}) {
   const [state, setState] = useState<"granted" | "checking" | "locked">(verified ? "granted" : "checking");
   const [menu, setMenu] = useState<MenuData | null>(initialMenu);
 
   useEffect(() => {
     if (verified) {
-      writeAccess(table);
+      if (!demo) writeAccess(table);
       return;
     }
     if (!readAccess()) {
@@ -58,10 +69,29 @@ export function QrGate({ verified, table, initialMenu }: { verified: boolean; ta
         setState("granted");
       })
       .catch(() => setState("locked"));
-  }, [verified, table]);
+  }, [verified, demo, table]);
 
-  if (state === "granted" && menu) return <MenuExperience initialMenu={menu} tableId={verified ? (table ?? undefined) : undefined} />;
+  if (state === "granted" && menu)
+    return (
+      <>
+        <MenuExperience initialMenu={menu} tableId={verified ? (table ?? undefined) : undefined} />
+        {demo && <DemoBadge />}
+      </>
+    );
   return <LockScreen checking={state !== "locked"} />;
+}
+
+/** Small reminder that the QR-only lock is switched off (QR_DEMO_MODE). */
+function DemoBadge() {
+  const { lang } = useApp();
+  return (
+    <div
+      className="font-ui pointer-events-none fixed bottom-3 start-3 z-[45] rounded-full border px-3 py-1 text-[10px] font-bold tracking-wide"
+      style={{ background: "rgba(5,7,11,0.8)", borderColor: "rgba(250,204,21,0.55)", color: "#FACC15" }}
+    >
+      {lang === "ar" ? "وضع العرض · قفل QR متوقف" : "DEMO MODE · QR lock off"}
+    </div>
+  );
 }
 
 function LockScreen({ checking }: { checking: boolean }) {

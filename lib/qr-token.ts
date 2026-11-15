@@ -10,6 +10,14 @@ import { createHmac, timingSafeEqual } from "crypto";
  */
 export const GENERAL_SCOPE = "menu";
 
+/**
+ * DEMO MODE (temporary): the root URL `/` opens the menu without a QR token.
+ * To re-enable the QR-only lock, set `QR_DEMO_MODE=false` in the environment (or flip the
+ * default below to `=== "true"`). Table links `/t/[id]?token=…` and `/qr-generator` are
+ * unaffected: table tokens are always verified.
+ */
+export const QR_DEMO_MODE = process.env.QR_DEMO_MODE !== "false";
+
 const secret = () => process.env.QR_SECRET || process.env.ADMIN_SECRET || "aghatti-qr-dev-secret";
 
 export function qrToken(scope: string) {
